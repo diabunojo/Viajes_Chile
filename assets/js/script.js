@@ -10,3 +10,23 @@
           $(this).tooltip("show");
         });
       });
+// muestra un mensaje del lugar de la foto al pasar el mouse por el titulo
+      $(document).ready(function () {
+        $("#card1").hover(function () {
+          $(this).tooltip("show");
+        });
+      
+        $("#card2").hover(function () {
+          $(this).tooltip("show");
+        });
+      
+        $("#card3").hover(function () {
+            $(this).tooltip("show");
+          });
+        
+          $("#card4").hover(function () {
+            $(this).tooltip("show");
+          });
+      });
+      
+
