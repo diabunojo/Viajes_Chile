@@ -1,8 +1,10 @@
+/*Diseño que se utilizará en toda la pagina*/
 body {
   background-color: #000;
   font-family: 'Roboto', sans-serif;
 }
 
+/*Propiedades para el navbar*/
 .navbar {
   
   font-family: 'Roboto', sans-serif;
@@ -11,67 +13,62 @@ body {
   z-index: 2; 
   background-color: transparent !important;
 }
-
+/* Clase para colocar el nombre del logo en blanco */
 .navbar-brand {
   color: #fff; 
 }
 
-/* Estilo de la lista del menú */
+/* Estilo de la lista del menú, se utiliza el id para que no se desborde el contenido */
 #navbarToggleExternalContent ul {
-  display: flex; /* Establece el modo flexbox */
+  display: flex; 
 
 }
 
-/* Estilo de los enlaces */
+/* Estilos para los elementos "a" dentro de la lista del menú (ul) del "navbarToggleExternalContent". 
+Ocupa todo el ancho, añade padding y ajusta el ancho automáticamente. */
 #navbarToggleExternalContent ul li a {
-  display: block; /* Ocupa todo el ancho */
-  padding: 0.5rem 1rem; /* Añade padding para mejor visibilidad */
-  width: auto; /* Ajusta el ancho según sea necesario */
+  display: block; 
+  padding: 0.5rem 1rem; 
+  width: auto; 
 }
 
 /* Eliminar margen flotante */
 .navbar-toggler {
-  float: none; /* Elimina el margen flotante */
+  float: none; 
 }
+/* Ajusta la altura de las imagenes */
 .card-img-top {
- 
-  height: 8em !important; /* Altura a tu preferencia */
+  height: 8em !important; 
 }
-
-.seccion-contacto {
-  margin-bottom: 0 auto !important; /* Elimina el margen inferior */
-  border-bottom: none !important; /* Elimina el borde inferior */
- 
-}
-
+/*Agrega color de fondo a las "card" */
 .card{
   background-color: #17A2B8;
 }
-.form-control {
-  width: 100%; /* Ajusta el ancho de las etiquetas del formulario */
+/* Elimina el margen y el borde interior de la clase "seccion-contacto". */
+.seccion-contacto {
+  margin-bottom: 0 auto !important;
+  border-bottom: none !important; 
+ 
 }
 
+/* Ajusta el ancho de las etiquetas del formulario */
+.form-control {
+  width: 100%; 
+}
+/*Se cambia el color del boton por defecto de boostrap*/
 .btn-primary { 
   background-color: #17A2B8; 
   color: #fff; 
 }
 
+/* Estilos del footer: Alineación vertical al centro, define la altura y ocupa todo el ancho. */
 footer {
   
-  align-items: center; /* Alineación vertical al centro */
-  height: 2em; /* Define la altura del footer */
-  width: 100%; /* Ocupa todo el ancho */
+  align-items: center; 
+  height: 2em; 
+  width: 100%; 
 }
 
-.mt-5 {
-  height: 3em; /* Ajusta la altura si es necesario */
-  margin-top: 2em;
-}
-
-.mt-5 h2 {
-  font-size: 0.5em; /* Reduce el tamaño del título */
-  max-height: 2em;
-}
 
 
 
